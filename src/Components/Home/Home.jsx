@@ -13,7 +13,7 @@ const Home = ({ plato }) => {
             </div>
           </div>
           <div className="Price">
-            <span>{elemento.price}</span>
+            <span>{elemento.price}€</span>
           </div>
         </div>
       </>
@@ -22,9 +22,11 @@ const Home = ({ plato }) => {
   return (
     <>
       <div className="Title">
-        <span>NUESTRAS HAMBURGUESAS</span>
+        <h2> &#128512; NUESTRAS HAMBURGUESAS &#128512;</h2>
       </div>
+      <div className='Super'>
       <div className="CentralContainer">{hamburguesa}</div>
+      </div>
     </>
   );
 };

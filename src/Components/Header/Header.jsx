@@ -7,14 +7,14 @@ const Header = ({ datos }) => {
   return (
     <>
       <div className="HeroContainer">
-        <span>RESTAURANTE</span>
+        <span>DELIRIUM BURGER</span>
       </div>
       <div className="navbarContainer">
         <div className="Left">
             {dato}
         </div>
         <div className="Center">
-          <span>El mejor restaurante del mundo</span>
+          <span>Donde la excelencia es nuestro segundo nombre</span>
         </div>
         <div className="Right">
           <button>Iniciar Sesión</button>

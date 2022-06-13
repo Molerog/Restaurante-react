@@ -1,17 +1,50 @@
+@import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&display=swap');
+
 .Title{
     display:flex;
     justify-content: center;
+    align-items: center;
+    height: 8vh;
+}
+
+.Title h2{
+    font-family: 'Bebas Neue', cursive;
+    font-size: 3em;
+}
+
+.Super{
+    display:flex;
+    justify-content: center;
+   
 }
 
 .CentralContainer{
     border:1px solid purple;
     display:flex;
-    flex-direction: column;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    gap:10em;
+    border-radius:5em;
+    height: 80vh;
+}
+
+.CentralContainer .ImageAndText:first-child{
+    flex-basis:40%;
+}
+.CentralContainer .ImageAndText:nth-child(2){
+    flex-basis:40%;
+}
+.CentralContainer .ImageAndText:nth-child(3){
+    flex-basis:40%;
+}
+.CentralContainer .ImageAndText:last-child{
+    flex-basis:40%;
 }
 
 .ImageAndText{
   display:flex;
   justify-content: space-evenly;
+  margin-top:1em;
   
 }
 
@@ -23,16 +56,12 @@
 .Text{
     display:flex;
     flex-direction: column;
-    width: 10em
-
-}
-
-.Container{
-    flex-basis: 20%;
+    width: 11em
 }
 
 .Price{   
     display:flex;
     align-items: center;
+    font-size: 2em;
 }
 

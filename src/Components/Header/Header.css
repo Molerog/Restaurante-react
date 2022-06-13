@@ -1,11 +1,26 @@
+@import url('https://fonts.googleapis.com/css2?family=Fascinate&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Courgette&display=swap');
+
+
 .HeroContainer{  
     display:flex;
-    justify-content: center;   
+    justify-content: center;
+    align-items: center;
+    height: 8vh;
+    font-size: 4em;
+    font-family: 'Fascinate';
+    text-decoration: underline;
 }
 
 .navbarContainer{
     display:flex;
     justify-content: space-around;
+    align-items: center;
+    height: 8vh;
+    font-size:1.5em;
+    font-family: 'Bebas Neue', cursive;
+
 }
 
 .Left{  
@@ -21,7 +36,8 @@
 .Center{
     display:flex;
     justify-content: center;
-    flex:1;
+    flex:2;
+    font-family: 'Courgette', cursive;
    
 }
 
@@ -29,4 +45,14 @@
     display:flex;
     justify-content: center;
     flex:1;
+}
+
+.Right button{
+    width:10em;
+    height: 2em;
+    border:1px solid white;
+    background-color: blue;
+    color:white;
+    border-radius: 10em;
+   
 }
