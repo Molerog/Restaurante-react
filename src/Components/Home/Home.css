@@ -1,32 +1,40 @@
 @import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Alfa+Slab+One&display=swap');
 
 .Title{
     display:flex;
     justify-content: center;
     align-items: center;
-    height: 8vh;
+    height: 18vh;  
+    background-color: black;
+    color:white
 }
 
 .Title h2{
     font-family: 'Bebas Neue', cursive;
-    font-size: 3em;
+    font-size: 3em;    
 }
 
 .Super{
     display:flex;
     justify-content: center;
-   
 }
 
 .CentralContainer{
-    border:1px solid purple;
     display:flex;
     justify-content: space-around;
     flex-wrap: wrap;
-    gap:10em;
-    border-radius:5em;
-    height: 80vh;
+    gap:5em; 
+    margin-left:8em;
 }
+
+.Container{
+    display:flex;
+    flex-direction: column;
+    align-items: center;
+    gap:1em;
+}
+
 
 .CentralContainer .ImageAndText:first-child{
     flex-basis:40%;
@@ -44,20 +52,32 @@
 .ImageAndText{
   display:flex;
   justify-content: space-evenly;
-  margin-top:1em;
-  
+  margin-top:1em;  
 }
 
 .Image{
-    width: 10em;
-    height: 10em;   
+    width: 15em;
+    height: 15em;  
 }
 
 .Text{
-    display:flex;
+    display:flex; 
     flex-direction: column;
-    width: 11em
+    justify-content: center;
+    width: 21em;
+    text-align:left;
+    gap:1em;
 }
+
+.Text span:first-child{
+    display:flex;
+    justify-content: center;
+     font-family: 'Alfa Slab One', cursive;
+     width:13em;
+     background-color: black;
+     color:white;
+}
+
 
 .Price{   
     display:flex;

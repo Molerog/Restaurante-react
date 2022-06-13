@@ -10,7 +10,7 @@
     height: 8vh;
     font-size: 4em;
     font-family: 'Fascinate';
-    text-decoration: underline;
+    text-decoration: underline; 
 }
 
 .navbarContainer{
@@ -19,8 +19,7 @@
     align-items: center;
     height: 8vh;
     font-size:1.5em;
-    font-family: 'Bebas Neue', cursive;
-
+    font-family: 'Bebas Neue', cursive;   
 }
 
 .Left{  
@@ -37,8 +36,7 @@
     display:flex;
     justify-content: center;
     flex:2;
-    font-family: 'Courgette', cursive;
-   
+    font-family: 'Courgette', cursive;   
 }
 
 .Right{
@@ -51,8 +49,8 @@
     width:10em;
     height: 2em;
     border:1px solid white;
-    background-color: blue;
+    background-color: rgb(15, 183, 235);
     color:white;
-    border-radius: 10em;
-   
+    border-radius: 10em;  
+    
 }

@@ -13,7 +13,9 @@ const Home = ({ plato }) => {
             </div>
           </div>
           <div className="Price">
-            <span>{elemento.price}€</span>
+            <div>
+              <span>{elemento.price}€</span>
+            </div>
           </div>
         </div>
       </>
