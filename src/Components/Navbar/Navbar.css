@@ -1,0 +1,37 @@
+.HeroContainer{
+    border: 1px solid red;
+    display:flex;
+    justify-content: center;
+    
+}
+
+.navbarContainer{
+    display:flex;
+    justify-content: space-around;
+}
+
+.Left{
+    background-color: purple;
+    display:flex;
+    justify-content: space-around;
+    flex:1;   
+}
+
+.Span{
+    display:flex;
+}
+
+.Center{
+    background-color: blue;
+    display:flex;
+    justify-content: center;
+    flex:1;
+   
+}
+
+.Right{
+    background-color: yellow;
+    display:flex;
+    justify-content: center;
+    flex:1;
+}

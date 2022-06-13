@@ -1,8 +1,12 @@
 import './App.css';
+import Header from './Components/Navbar/Navbar';
 
 function App() {
+  const datos = ['INICIO', 'MENÚ', 'CONTACTO']
   return (
-    'Hola'
+    <div className= 'Header'>
+      <Header datos = {datos}/>
+    </div>
   );
 }
 
