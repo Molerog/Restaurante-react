@@ -1,0 +1,38 @@
+.Title{
+    display:flex;
+    justify-content: center;
+}
+
+.CentralContainer{
+    border:1px solid purple;
+    display:flex;
+    flex-direction: column;
+}
+
+.ImageAndText{
+  display:flex;
+  justify-content: space-evenly;
+  
+}
+
+.Image{
+    width: 10em;
+    height: 10em;   
+}
+
+.Text{
+    display:flex;
+    flex-direction: column;
+    width: 10em
+
+}
+
+.Container{
+    flex-basis: 20%;
+}
+
+.Price{   
+    display:flex;
+    align-items: center;
+}
+

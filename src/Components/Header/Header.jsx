@@ -1,11 +1,11 @@
-import "./Navbar.css";
+import "./Header.css";
 
 const Header = ({ datos }) => {
   const dato = datos.map(elemento => {
     return <span>{elemento}</span>
   });
   return (
-    <div>
+    <>
       <div className="HeroContainer">
         <span>RESTAURANTE</span>
       </div>
@@ -20,7 +20,7 @@ const Header = ({ datos }) => {
           <button>Iniciar Sesión</button>
         </div>
       </div>
-    </div>
+    </>
   );
 };
 

@@ -1,8 +1,6 @@
-.HeroContainer{
-    border: 1px solid red;
+.HeroContainer{  
     display:flex;
-    justify-content: center;
-    
+    justify-content: center;   
 }
 
 .navbarContainer{
@@ -10,8 +8,7 @@
     justify-content: space-around;
 }
 
-.Left{
-    background-color: purple;
+.Left{  
     display:flex;
     justify-content: space-around;
     flex:1;   
@@ -22,7 +19,6 @@
 }
 
 .Center{
-    background-color: blue;
     display:flex;
     justify-content: center;
     flex:1;
@@ -30,7 +26,6 @@
 }
 
 .Right{
-    background-color: yellow;
     display:flex;
     justify-content: center;
     flex:1;
