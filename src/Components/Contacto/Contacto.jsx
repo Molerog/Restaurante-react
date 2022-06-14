@@ -111,19 +111,23 @@ const Contacto = () => {
                 Enviar
               </button>
             </div>
+            <article className="Message">{message}</article>
           </form>
           <div className="TextContainer">
-            <p>
-              {" "}
-              Lorem ipsum dolor sit amet, consectetur adipisicing elit.
-              Laboriosam, non modi repellendus provident soluta saepe eligendi
-              vitae amet fuga ipsa nemo et dolorem, unde sit voluptates maiores
-              optio, a vero?
-            </p>
+            <div className="TextWaitYou">
+              <p>
+                ¿Deseoso de hincarle el diente a nuestras jugoosas hamburguesas?
+                Rellena el formulario y reserva ya mismo ¡Te esperamos!
+              </p>
+            </div>
+            <div className = 'SubText'>
+              <p>
+                Frase del día: 'Para trabajar basta estar convencido de una cosa: que trabajar es menos aburrido que divertirse' <br></br><br></br>(Charles Baudelaire)
+              </p>
+            </div>
           </div>
         </div>
       </section>
-      <div className="Message">{message}</div>
     </>
   );
 };
