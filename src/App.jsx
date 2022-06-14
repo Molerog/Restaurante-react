@@ -5,7 +5,24 @@ import Contacto from "./Components/Contacto/Contacto";
 import Header from "./Components/Header/Header";
 import Home from "./Components/Home/Home";
 
-const datos = ["INICIO", "MENÚ", "CONTACTO"];
+const datos = [
+  {
+  id: 1,
+  name: "INICIO", 
+  url: "/"
+  },
+  {
+  id: 2,
+  name: "MENÚ", 
+  url: "/menu"
+  },
+  {
+  id: 3,  
+  name:"CONTACTO",
+  url: "/contact"
+  }
+]
+;
 const platos = [
   {
     id: 1,
@@ -49,7 +66,7 @@ function App() {
       </div>
         <div className="Home">
       <Routes>
-          <Route path = '/Home' element = {<Home  plato={platos}/>}/>
+          <Route path = '/Menu' element = {<Home  plato={platos}/>}/>
           <Route path = '/Contact' element = {<Contacto/>}/>
       </Routes>
         </div>

@@ -1,8 +1,9 @@
 import "./Header.css";
+import {Link} from 'react-router-dom'
 
 const Header = ({ datos }) => {
-  const dato = datos.map((elemento, i )=> {
-    return <span key = {i}>{elemento}</span>
+  const dato = datos.map(elemento=> {
+    return <Link to={elemento.url} key={elemento.id}>{elemento.name}</Link>
   });
   return (
     <>
