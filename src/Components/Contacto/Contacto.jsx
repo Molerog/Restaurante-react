@@ -49,7 +49,7 @@ const Contacto = () => {
     clearState();
     setMessage("formulario enviado con éxito");
     setTimeout(() => {
-      navigate("/Home");
+      navigate("/");
     }, 3000);
   };
   return (
