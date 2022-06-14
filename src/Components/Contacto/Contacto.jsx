@@ -55,7 +55,7 @@ const Contacto = () => {
   return (
     <>
       <div className="Title">
-        <h2> &#128512; RESERVA CON NOSOTROS &#128512;</h2>
+        <h2> &#9997; RESERVA CON NOSOTROS &#9997;</h2>
       </div>
       <section className="BodyContainer">
         <div className="FormTextContainer">

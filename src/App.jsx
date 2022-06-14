@@ -4,6 +4,7 @@ import "./App.css";
 import Contacto from "./Components/Contacto/Contacto";
 import Header from "./Components/Header/Header";
 import Home from "./Components/Home/Home";
+import Inicio from "./Components/Inicio/Inicio";
 
 const datos = [
   {
@@ -66,8 +67,9 @@ function App() {
       </div>
         <div className="Home">
       <Routes>
-          <Route path = '/Menu' element = {<Home  plato={platos}/>}/>
-          <Route path = '/Contact' element = {<Contacto/>}/>
+          <Route path = '/Menu' element={<Home  plato={platos}/>}/>
+          <Route path = '/Contact' element={<Contacto/>}/>
+          <Route path = '/' element={<Inicio/>}/>
       </Routes>
         </div>
     </BrowserRouter>

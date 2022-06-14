@@ -2,6 +2,10 @@
 @import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Courgette&display=swap');
 
+.Link a{
+    text-decoration: none;
+    cursor:pointer
+}
 
 .HeroContainer{  
     display:flex;
@@ -20,6 +24,7 @@
     height: 8vh;
     font-size:1.5em;
     font-family: 'Bebas Neue', cursive;   
+
 }
 
 .Left{  

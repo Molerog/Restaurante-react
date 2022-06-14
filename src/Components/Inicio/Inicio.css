@@ -1,0 +1,17 @@
+@import url('https://fonts.googleapis.com/css2?family=Fascinate&display=swap');
+
+
+.GlobalContainer{
+    display:flex;
+    justify-content: center;
+    align-items: center;
+    background-color: black;     
+    min-height: 85vh;
+}
+
+.GlobalContainer span{
+    font-size: 5em;
+    color:white;
+    font-family: 'Fascinate';
+}
+
