@@ -1,8 +1,8 @@
 import "./Header.css";
 
 const Header = ({ datos }) => {
-  const dato = datos.map(elemento => {
-    return <span>{elemento}</span>
+  const dato = datos.map((elemento, i )=> {
+    return <span key = {i}>{elemento}</span>
   });
   return (
     <>

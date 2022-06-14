@@ -3,7 +3,6 @@ import "./Home.css";
 const Home = ({ plato }) => {
   const hamburguesa = plato.map((elemento) => {
     return (
-      <>
         <div className="ImageAndText" key={elemento.id}>
           <div className="Container">
             <img className="Image" src={elemento.img} alt="hamburguesa"></img>
@@ -18,7 +17,6 @@ const Home = ({ plato }) => {
             </div>
           </div>
         </div>
-      </>
     );
   });
   return (
