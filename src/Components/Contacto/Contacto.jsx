@@ -86,6 +86,7 @@ const Contacto = () => {
                 placeholder="Date"
                 onChange={handleInputChange}
                 value={data.date}
+                min={new Date().toISOString().split("T")[0]}
               />
             </div>
             <div className="InputTime" data-for="time">

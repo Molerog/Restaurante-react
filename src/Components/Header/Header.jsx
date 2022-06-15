@@ -3,8 +3,8 @@ import {Link} from 'react-router-dom'
 
 const Header = ({ datos }) => {
   const dato = datos.map(elemento=> {
-    return (<div className = 'Link'>
-    <Link to={elemento.url} key={elemento.id}>{elemento.name}</Link>
+    return (<div key={elemento.id} className  = 'Link'>
+    <Link to={elemento.url}>{elemento.name}</Link>
     </div>)
   });
   return (
